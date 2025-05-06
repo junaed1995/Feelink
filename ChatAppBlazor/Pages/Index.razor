@@ -1,0 +1,118 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.SignalR.Client
+@inject NavigationManager Navigation
+
+<h3><strong>ConvoX</strong></h3>
+
+@if (!isConnected)
+{
+    <input @bind="userName" placeholder="Enter your name" />
+    <button @onclick="ConnectToChat">Connect to Chat</button>
+}
+else
+{
+    <p><strong>Connected as:</strong> @userName</p>
+    <input @bind="message" placeholder="Type a message" />
+    <button @onclick="SendMessage">Send Message</button>
+
+    <ul>
+        @foreach (var msg in messages)
+        {
+            string username = "Unknown";
+            string text = msg;
+            string usernameColor = GetColorForUser(username); // Default color
+            string messageClass = ""; // For the shake effect
+            bool triggerScreenShake = false; // Flag for screen shake effect
+
+            // Split the message to extract the username and text
+            int splitIndex = msg.IndexOf(':');
+            if (splitIndex > 0 && splitIndex < msg.Length - 1)
+            {
+                username = msg.Substring(0, splitIndex).Trim();
+                text = msg.Substring(splitIndex + 1).Trim();
+                usernameColor = GetColorForUser(username); // Assign color
+
+                // Check if the message contains "!!" to trigger screen shake
+                if (text.Contains("!!"))
+                {
+                    triggerScreenShake = true;
+                }
+
+                // Check if the message contains "!" to apply the shake effect to the text
+                if (text.Contains('!'))
+                {
+                    messageClass = "shake-message"; // Add the shake class if "!" is present
+                }
+            }
+
+            // Apply screen shake effect if the flag is set
+            if (triggerScreenShake)
+            {
+                <div class="screen-shake">
+                    <p>
+                        <strong style="color:@usernameColor;">@username:</strong>
+                        <span class="@messageClass">@text</span>
+                    </p>
+                </div>
+            }
+            else
+            {
+                <p>
+                    <strong style="color:@usernameColor;">@username:</strong>
+                    <span class="@messageClass">@text</span>
+                </p>
+            }
+        }
+    </ul>
+
+
+}
+
+@code {
+    private HubConnection hubConnection;
+    private string userName;
+    private string message;
+    private List<string> messages = new();
+    private bool isConnected = false;
+    private Dictionary<string, string> userColors = new(); // Store username to color mapping
+
+    private async Task ConnectToChat()
+    {
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl(Navigation.ToAbsoluteUri("http://localhost:5085/chatHub")) // Backend SignalR hub
+            .WithAutomaticReconnect()
+            .Build();
+
+        hubConnection.On<string, string>("ReceiveMessage", (user, msg) =>
+        {
+            var fullMessage = $"{user}: {msg}";
+            messages.Add(fullMessage);
+            InvokeAsync(StateHasChanged);
+        });
+
+        await hubConnection.StartAsync();
+        isConnected = true;
+    }
+
+    private async Task SendMessage()
+    {
+        if (hubConnection != null && hubConnection.State == HubConnectionState.Connected)
+        {
+            await hubConnection.SendAsync("SendMessage", userName, message);
+            message = string.Empty;
+        }
+    }
+
+    private string GetColorForUser(string username)
+    {
+        if (!userColors.ContainsKey(username))
+        {
+            // Generate a random color if this user does not have a color yet
+            var random = new Random();
+            var color = string.Format("#{0:X6}", random.Next(0x1000000)); // Random Hex color code
+            userColors[username] = color; // Store the color for the user
+        }
+
+        return userColors[username];
+    }
+}

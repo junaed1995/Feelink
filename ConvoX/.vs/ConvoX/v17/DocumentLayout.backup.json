@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D40DD4-86FB-4905-A1CE-05975E0B86C4}|ConvoX\\ConvoX.csproj|c:\\users\\mimo\\source\\repos\\chatapp\\convox\\convox\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D40DD4-86FB-4905-A1CE-05975E0B86C4}|ConvoX\\ConvoX.csproj|solutionrelative:convox\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D40DD4-86FB-4905-A1CE-05975E0B86C4}|ConvoX\\ConvoX.csproj|c:\\users\\mimo\\source\\repos\\chatapp\\convox\\convox\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D40DD4-86FB-4905-A1CE-05975E0B86C4}|ConvoX\\ConvoX.csproj|solutionrelative:convox\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D40DD4-86FB-4905-A1CE-05975E0B86C4}|ConvoX\\ConvoX.csproj|c:\\users\\mimo\\source\\repos\\chatapp\\convox\\convox\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D40DD4-86FB-4905-A1CE-05975E0B86C4}|ConvoX\\ConvoX.csproj|solutionrelative:convox\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D40DD4-86FB-4905-A1CE-05975E0B86C4}|ConvoX\\ConvoX.csproj|c:\\users\\mimo\\source\\repos\\chatapp\\convox\\convox\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5D40DD4-86FB-4905-A1CE-05975E0B86C4}|ConvoX\\ConvoX.csproj|solutionrelative:convox\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D40DD4-86FB-4905-A1CE-05975E0B86C4}|ConvoX\\ConvoX.csproj|c:\\users\\mimo\\source\\repos\\chatapp\\convox\\convox\\convox.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D5D40DD4-86FB-4905-A1CE-05975E0B86C4}|ConvoX\\ConvoX.csproj|solutionrelative:convox\\convox.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D40DD4-86FB-4905-A1CE-05975E0B86C4}|ConvoX\\ConvoX.csproj|c:\\users\\mimo\\source\\repos\\chatapp\\convox\\convox\\convox.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D5D40DD4-86FB-4905-A1CE-05975E0B86C4}|ConvoX\\ConvoX.csproj|solutionrelative:convox\\convox.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5D40DD4-86FB-4905-A1CE-05975E0B86C4}|ConvoX\\ConvoX.csproj|c:\\users\\mimo\\source\\repos\\chatapp\\convox\\convox\\convox.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D5D40DD4-86FB-4905-A1CE-05975E0B86C4}|ConvoX\\ConvoX.csproj|solutionrelative:convox\\convox.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\ConvoX\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ConvoX\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\ConvoX\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ConvoX\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T14:59:45.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConvoX.http",
+              "DocumentMoniker": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\ConvoX\\ConvoX.http",
+              "RelativeDocumentMoniker": "ConvoX\\ConvoX.http",
+              "ToolTip": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\ConvoX\\ConvoX.http",
+              "RelativeToolTip": "ConvoX\\ConvoX.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-19T14:59:29.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\ConvoX\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ConvoX\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\ConvoX\\WeatherForecast.cs",
+              "RelativeToolTip": "ConvoX\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T14:47:21.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConvoX",
+              "DocumentMoniker": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\ConvoX\\ConvoX.csproj",
+              "RelativeDocumentMoniker": "ConvoX\\ConvoX.csproj",
+              "ToolTip": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\ConvoX\\ConvoX.csproj",
+              "RelativeToolTip": "ConvoX\\ConvoX.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-19T14:44:34.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\ConvoX\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "ConvoX\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\ConvoX\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "ConvoX\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T18:00:52.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConvoX.csproj",
+              "DocumentMoniker": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\ConvoX\\ConvoX.csproj",
+              "RelativeDocumentMoniker": "ConvoX\\ConvoX.csproj",
+              "ToolTip": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\ConvoX\\ConvoX.csproj",
+              "RelativeToolTip": "ConvoX\\ConvoX.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-18T17:58:45.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\ConvoX\\Program.cs",
+              "RelativeDocumentMoniker": "ConvoX\\Program.cs",
+              "ToolTip": "C:\\Users\\Mimo\\source\\repos\\ChatApp\\ConvoX\\ConvoX\\Program.cs",
+              "RelativeToolTip": "ConvoX\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T17:51:49.35Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

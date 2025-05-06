@@ -1,0 +1,17 @@
+﻿@page "/"
+@namespace ChatAppBlazor.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_Layout";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat App Blazor</title>
+    <link href="~/css/animations.css" rel="stylesheet" />
+    <!-- Other head content like favicon or meta tags -->
+</head>
+
+
+<component type="typeof(App)" render-mode="ServerPrerendered" />
